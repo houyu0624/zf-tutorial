@@ -70,7 +70,23 @@ class IndexController extends Zend_Controller_Action
 
     public function deleteAction()
     {
-        // action body
+        if ($this->getRequest()->isPost()) {
+            $del = $this->getRequest()->getPost('del');
+
+            if ($del == 'Yes') {
+                $id = $this->getRequest()->getPost('id');
+
+                $albums = new Application_Model_DbTable_Albums();
+                $albums->deleteAlbum($id);
+            }
+
+            $this->_helper->redirector('index');
+        } else {
+            $id = $this->getParam('id', 0);
+
+            $albums = new Application_Model_DbTable_Albums();
+            $this->view->album = $albums->getAlbum($id);
+        }
     }
 
 

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="98bfc96f-ee74-4088-8ef6-0762c5cf6046" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/application/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/scripts/index/edit.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/scripts/index/edit.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/scripts/index/delete.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/scripts/index/delete.phtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="491">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
             </state>
           </provider>
         </entry>
@@ -72,9 +72,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/scripts/index/delete.phtml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -128,13 +132,13 @@
         <option value="$PROJECT_DIR$/application/models/DbTable/Albums.php" />
         <option value="$PROJECT_DIR$/application/layouts/scripts/layout.phtml" />
         <option value="$PROJECT_DIR$/public/css/site.css" />
-        <option value="$PROJECT_DIR$/application/views/scripts/index/delete.phtml" />
         <option value="$PROJECT_DIR$/application/configs/application.ini" />
         <option value="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
         <option value="$PROJECT_DIR$/application/forms/Album.php" />
         <option value="$PROJECT_DIR$/application/views/scripts/index/add.phtml" />
         <option value="$PROJECT_DIR$/application/views/scripts/index/edit.phtml" />
         <option value="$PROJECT_DIR$/application/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/application/views/scripts/index/delete.phtml" />
       </list>
     </option>
   </component>
@@ -243,7 +247,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -269,12 +273,12 @@
       <updated>1564306982451</updated>
       <workItem from="1564306983743" duration="410000" />
       <workItem from="1564339537345" duration="19000" />
-      <workItem from="1564362464752" duration="12593000" />
+      <workItem from="1564362464752" duration="13632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13022000" />
+    <option name="totallyTimeSpent" value="14061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="804" extended-state="0" />
@@ -412,9 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/scripts/index/delete.phtml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/site.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
@@ -464,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/scripts/index/edit.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -478,10 +472,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="491">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/scripts/index/delete.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
