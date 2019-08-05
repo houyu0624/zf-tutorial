@@ -29,6 +29,10 @@ class ComposerStaticInite68c69492ec34850e7972b798203d4a1
         array (
             'Prophecy\\' => 9,
         ),
+        'M' => 
+        array (
+            'Mouf\\NodeJsInstaller\\' => 21,
+        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
@@ -58,6 +62,10 @@ class ComposerStaticInite68c69492ec34850e7972b798203d4a1
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
+        ),
+        'Mouf\\NodeJsInstaller\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mouf/nodejs-installer/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
