@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98bfc96f-ee74-4088-8ef6-0762c5cf6046" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,16 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;05c66858-f67b-4120-8622-0cfebc05570f&gt;/zf-tutorial/vendor/phpunit/phpunit/composer.json">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="37" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/README.txt">
+        <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="255">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -49,6 +53,7 @@
       <find>getAlbum</find>
       <find>pear-pear.php.net</find>
       <find>pear</find>
+      <find>phpunit-mock-objects</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -76,6 +81,7 @@
         <option value="&lt;05c66858-f67b-4120-8622-0cfebc05570f&gt;/zf-tutorial/composer.json" />
         <option value="&lt;05c66858-f67b-4120-8622-0cfebc05570f&gt;/zf-tutorial/vendor/phpunit/phpunit/composer.json" />
         <option value="$PROJECT_DIR$/docs/README.txt" />
+        <option value="$PROJECT_DIR$/vendor/phpunit/phpunit/.gitignore" />
       </list>
     </option>
   </component>
@@ -100,7 +106,28 @@
             <path>
               <item name="zf-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="zf-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zf-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zf-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="phpunit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zf-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zf-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="phpunit" type="462c0819:PsiDirectoryNode" />
+              <item name="phpunit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zf-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zf-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="phpunit" type="462c0819:PsiDirectoryNode" />
+              <item name="phpunit" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,12 +174,12 @@
       <updated>1564306982451</updated>
       <workItem from="1564306983743" duration="410000" />
       <workItem from="1564339537345" duration="19000" />
-      <workItem from="1564362464752" duration="20342000" />
+      <workItem from="1564362464752" duration="20927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20771000" />
+    <option name="totallyTimeSpent" value="21356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1440" height="804" extended-state="6" />
@@ -374,11 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-311" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -386,6 +408,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>

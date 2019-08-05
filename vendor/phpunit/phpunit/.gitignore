@@ -16,5 +16,4 @@
 /tests/TextUI/*.log
 /tests/TextUI/*.out
 /tests/TextUI/*.php
-/vendor
 
