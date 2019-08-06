@@ -14,6 +14,11 @@ class IndexController extends Zend_Controller_Action
         $this->view->albums = $albums->fetchAll();
     }
 
+    public function gameAction()
+    {
+
+    }
+
     public function addAction()
     {
         $form = new Application_Form_Album();
