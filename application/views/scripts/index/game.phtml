@@ -1,15 +1,16 @@
 <?php
 $this->title="Tic-Tac-Toe game";
 $this->headTitle($this->title);
+$this->headLink()->appendStylesheet($this->baseUrl().'/game/css/main.8a935685.chunk.css');
 ?>
+
+<noscript>You need to enable JavaScript to run this app.</noscript>
 <p><a href="<?php echo $this->url(array('controller' => 'index', 'action' => 'index')); ?>">Back</a></p>
-<head>
-    <link href="/game/css/main.8a935685.chunk.css" rel="stylesheet">
-</head>
-<body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <script src="/game/js/runtime~main.a8a9905a.js"></script>
-    <script src="/game/js/2.0e3f6a1a.chunk.js"></script>
-    <script src="/game/js/main.972f40ac.chunk.js"></script>
-</body>
+<div id="root"></div>
+
+<?php
+echo $this->inlineScript()
+    ->appendFile($this->baseUrl().'/game/js/runtime~main.a8a9905a.js')
+    ->appendFile($this->baseUrl().'/game/js/2.0e3f6a1a.chunk.js')
+    ->appendFile($this->baseUrl().'/game/js/main.972f40ac.chunk.js');
+?>
