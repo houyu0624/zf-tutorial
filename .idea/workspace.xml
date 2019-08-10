@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98bfc96f-ee74-4088-8ef6-0762c5cf6046" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/modules/blog/Bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/modules/blog/models/Info.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/scripts/index/blog.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/configs/application.ini" beforeDir="false" afterPath="$PROJECT_DIR$/application/configs/application.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
