@@ -94,6 +94,11 @@ class IndexController extends Zend_Controller_Action
         }
     }
 
+    public function blogAction()
+    {
+        $info = new Blog_Model_Info();
+        $this->view->blogInfo = $info->getInfo();
+    }
 
 }
 
