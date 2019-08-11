@@ -100,11 +100,11 @@ class IndexController extends Zend_Controller_Action
         $this->view->blogInfo = $info->getInfo();
     }
 
+    public function restAction()
+    {
+        $info = new Rest_Model_Info();
+        $this->view->restInfo = $info->getInfo();
+    }
+
 }
-
-
-
-
-
-
 
