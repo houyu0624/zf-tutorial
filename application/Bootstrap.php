@@ -7,7 +7,7 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
         // Initialize view
         $view = new Zend_View();
         $view->doctype('XHTML1_STRICT');
-        $view->headTitle('Framework');
+        $view->headTitle('亲爱的');
 
         // Add it to the ViewRenderer
         $viewRenderer = Zend_Controller_Action_HelperBroker::getStaticHelper(
