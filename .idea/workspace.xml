@@ -4,9 +4,7 @@
     <list default="true" id="98bfc96f-ee74-4088-8ef6-0762c5cf6046" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/modules/albums/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/albums/controllers/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/modules/albums/views/scripts/index/rest.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/albums/views/scripts/index/rests.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/modules/rest/models/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/rest/models/Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/modules/rest/models/Info.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/rest/models/Server.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565499098865</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update REST server and client names">
+      <created>1565499927601</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565499927601</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +132,7 @@
     <MESSAGE value="Modify head title" />
     <MESSAGE value="create REST module" />
     <MESSAGE value="use Zend_Rest_Client to get info from Zend_Rest_Server" />
-    <option name="LAST_COMMIT_MESSAGE" value="use Zend_Rest_Client to get info from Zend_Rest_Server" />
+    <MESSAGE value="update REST server and client names" />
+    <option name="LAST_COMMIT_MESSAGE" value="update REST server and client names" />
   </component>
 </project>

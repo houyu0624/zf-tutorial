@@ -12,4 +12,14 @@ class Rest_Model_Client
             echo $result; // "Hello Davey, Good Day"
         }
     }
+
+    public function getInfoXml() {
+        $client = new Zend_Rest_Client('http://www.canadayu.com');
+
+        $options['method'] = 'sayHello';
+        $options['argument'] = 'Davey';
+        $response = $client->restGet('/index/rests', $options);
+
+        echo htmlspecialchars($response->getBody());
+    }
 }
