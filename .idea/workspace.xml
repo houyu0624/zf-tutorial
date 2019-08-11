@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98bfc96f-ee74-4088-8ef6-0762c5cf6046" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/application/modules/albums/Bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/Bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/layouts/scripts/layout.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/layouts/scripts/layout.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/configs/application.ini" beforeDir="false" afterPath="$PROJECT_DIR$/application/configs/application.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/ErrorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/albums/controllers/ErrorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/albums/controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/forms/Album.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/albums/forms/Album.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/DbTable/Albums.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/albums/models/DbTable/Albums.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/scripts/error/error.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/albums/views/scripts/error/error.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/scripts/index/add.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/albums/views/scripts/index/add.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/scripts/index/blog.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/albums/views/scripts/index/blog.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/scripts/index/delete.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/albums/views/scripts/index/delete.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/scripts/index/edit.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/albums/views/scripts/index/edit.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/scripts/index/game.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/albums/views/scripts/index/game.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/albums/views/scripts/index/index.phtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +54,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/scripts/index" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/modules/albums" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -51,15 +62,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/modules/albums" />
       <recent name="$PROJECT_DIR$/public/game" />
       <recent name="$PROJECT_DIR$/public/js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/modules/albums" />
       <recent name="$PROJECT_DIR$/application/views/scripts/index" />
       <recent name="$PROJECT_DIR$/application/modules/blog" />
       <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/public/css" />
-      <recent name="$PROJECT_DIR$/public/game" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -88,9 +100,21 @@
       <workItem from="1564339537345" duration="19000" />
       <workItem from="1564362464752" duration="50713000" />
     </task>
+    <task id="LOCAL-00001" summary="Modify head title">
+      <created>1565478814875</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565478814875</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modify head title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify head title" />
   </component>
 </project>
