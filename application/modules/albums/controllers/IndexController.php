@@ -106,5 +106,10 @@ class IndexController extends Zend_Controller_Action
         $this->view->restInfo = $info->getInfo();
     }
 
+    public function restcAction()
+    {
+        $restc = new Rest_Model_Client();
+        $this->view->restcInfo = $restc->getInfo();
+    }
 }
 
