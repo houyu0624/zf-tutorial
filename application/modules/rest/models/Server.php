@@ -1,6 +1,6 @@
 <?php
 
-class Rest_Model_Info
+class Rest_Model_Server
 {
     public function getInfo()
     {
