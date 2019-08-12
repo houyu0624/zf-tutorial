@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98bfc96f-ee74-4088-8ef6-0762c5cf6046" name="Default Changelist" comment="update REST server and client names">
+    <list default="true" id="98bfc96f-ee74-4088-8ef6-0762c5cf6046" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/modules/albums/views/scripts/index/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/albums/views/scripts/index/index.phtml" afterDir="false" />
     </list>
@@ -155,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565587436953</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="modify correct link">
+      <created>1565590918832</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565590918832</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +186,7 @@
     <MESSAGE value="create REST module" />
     <MESSAGE value="use Zend_Rest_Client to get info from Zend_Rest_Server" />
     <MESSAGE value="update REST server and client names" />
-    <option name="LAST_COMMIT_MESSAGE" value="update REST server and client names" />
+    <MESSAGE value="modify correct link" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify correct link" />
   </component>
 </project>
