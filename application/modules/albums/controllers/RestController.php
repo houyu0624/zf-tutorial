@@ -2,14 +2,8 @@
 
 class RestController extends Zend_Rest_Controller
 {
-    private $_form;
-
     public function init()
     {
-        $bootstrap = $this->getInvokeArg('bootstrap');
-
-        $options = $bootstrap->getOption('resources');
-
         $contextSwitch = $this->_helper->getHelper('contextSwitch');
         $contextSwitch->addActionContext('index', array('xml','json'))->initContext();
 
@@ -26,7 +20,7 @@ class RestController extends Zend_Rest_Controller
     {
         //if you want to have access to a particular paramater use the helper function as follows:
         //print $this->_helper->getParam('abc');
-        //To test with this use:  http://myURL/format/xml/abc/1002
+        //To test with this use:  http://www.canadayu.com/albums/rest/index/format/xml/abc/1002
 
     }
 
@@ -36,6 +30,20 @@ class RestController extends Zend_Rest_Controller
      */
     public function listAction()
     {
+        $this->forward('index');
+    }
+
+    /**
+     * Show the new request
+     */
+    public function newAction() {
+        $this->forward('index');
+    }
+
+    /**
+     * Show the edit book form. Url format: /version/edit/2
+     */
+    public function editAction() {
         $this->forward('index');
     }
 
@@ -50,24 +58,10 @@ class RestController extends Zend_Rest_Controller
     }
 
     /**
-     * Show the new request
-     */
-    public function newAction() {
-        $this->forward('index');
-    }
-
-    /**
      * The post action handles POST requests; it should accept and digest a
      * POSTed resource representation and persist the resource state.
      */
     public function postAction() {
-        $this->forward('index');
-    }
-
-    /**
-     * Show the edit book form. Url format: /version/edit/2
-     */
-    public function editAction() {
         $this->forward('index');
     }
 
@@ -92,5 +86,4 @@ class RestController extends Zend_Rest_Controller
     public function headAction() {
         $this->forward('index');
     }
-
 }
